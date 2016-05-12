@@ -1,0 +1,196 @@
+/*Style Comes Here*/
+
+body{
+	font-family: timeburner;
+}
+
+#mainSelect{
+	overflow: hidden;
+	margin-top: -10%;
+	margin-left: 0.5%;
+	display: inline-block;
+	width: 24%;
+	height: 98%;
+	background-color: white;
+}
+
+#dialSelector{
+	overflow: auto;
+	margin-left: 0.5%;
+	display: inline-block;
+	width: 49%;
+	height: 98%;
+	background-color: lightgrey;
+}
+
+#history{
+	margin-left: 0.5%;
+	overflow: auto;
+	display: inline-block;
+	width: 24%;
+	height: 98%;
+	background-color: white;
+}
+
+#showDiv{
+	/*overflow: auto;*/
+	margin-left: 5%;
+	margin-top: -1%;
+	width: 90%;
+	height: 23%;
+	/*background-color: #bb44ee;*/
+	background-color: white;
+	position: relative;
+}
+
+#colorDiv{
+	position: relative;
+	margin-left: 5%;
+	margin-top: 2%;
+	width: 90%;
+	height: 23%;
+	background-color: pink;
+}
+
+#hueDiv{
+	margin-left: 5%;
+	margin-top: 2%;
+	width: 90%;
+	height: 23%;
+	background-color: pink;
+	position: relative;
+}
+
+#manDiv{
+	position: relative;
+	margin-left: 5%;
+	margin-top: 2%;
+	width: 90%;
+	height: 23%;
+	background-color: pink;
+}
+
+#mainDialDiv{
+	overflow: hidden;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: -2%;
+	height: 90%;
+	background-color: #e2e3e2;
+}
+
+#hisTitle{
+	width: 90%;
+	height: 12%;
+	margin-left: 5%;
+	background-color: white;
+}
+
+#resTitle{
+	margin-top: 5%;
+	margin-left: 5%;	
+}
+
+#resultDisp{
+	overflow: auto;
+	width: 90%;
+	height: 52%;
+	margin-top: 5%;
+	margin-left: 5%;
+	background-color: #94dbf9;
+	border: groove;
+	border-radius: 5px;
+}
+
+#likeColor{
+	overflow: auto;
+	margin-left: 5%;
+	margin-top: 5%;
+	width: 90%;
+	height: 25%;
+	background-color: lightgreen;
+	border: groove;
+	border-radius: 5px;
+}
+
+#resultText{
+	margin-left: 5%;
+}
+
+#showBox{
+	width: 90%;
+	height: 70%;
+	margin-left: 4%;
+	margin-top: -6%;
+	/*background-color: #9b44ee;*/
+	position: absolute;
+	border: double;
+}
+
+@font-face {
+    font-family: timeburner;
+    src: url(timeburnernormal.ttf);
+}
+
+#hofdial{
+	margin-left: 5%;
+}
+
+#hofshow{
+	margin-left: 5%;
+}
+
+#rgbTable{
+	margin-top: 10%;
+	margin-left: 5%;
+	position: absolute;
+}
+
+#hueTable{
+	margin-top: 17%;
+	margin-left: 5%;
+	position: absolute;
+}
+
+#sliderText{
+	position: absolute;
+	margin-top: 1%;
+	margin-left: 5%;
+}
+
+#colorForm{
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 10%;
+
+}
+
+#layer1{
+	margin-top: -8%;
+}
+#block1,#block2,#block3,#block4,#block5,#block6,#block7,#block8,#block9,#block10,#block11,#block12{
+	z-index: 0;
+}
+
+#block1:hover,#block2:hover,#block3:hover,#block4:hover,#block5:hover,#block6:hover{
+	transform-origin: 50% 50%;
+	-webkit-transform: scale(1.4);
+	/*position: static;*/
+	z-index: 99999;
+}
+
+#block7:hover,#block8:hover,#block9:hover,#block10:hover,#block11:hover,#block12:hover{
+	transform-origin: 50% 50%;
+	-webkit-transform: scale(1.4);
+	z-index: 99999;
+}
+
+#block1:active,#block2:active,#block3:active,#block4:active,#block5:active,#block6:active{
+	transform-origin: 50% 50%;
+	-webkit-transform: scale(0.8);
+}
+
+#block7:active,#block8:active,#block9:active,#block10:active,#block11:active,#block12:active{
+	transform-origin: 50% 50%;
+	-webkit-transform: scale(0.8);
+}
